@@ -1,0 +1,14 @@
+{
+  "name": "khoa4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bieuthuctoan.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
