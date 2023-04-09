@@ -8,4 +8,5 @@
 const trim = (str) => {
   return (str.split("  ").join(" "));
 };
+console.log(trim("hello  tien"));
 module.exports = trim

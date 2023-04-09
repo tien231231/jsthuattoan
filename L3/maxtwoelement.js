@@ -17,5 +17,5 @@ const maxtwoelement = (arr) => {
   }
   return kq;
 };
-console.log(maxtwoelement([1,2,98,99]));
+console.log(maxtwoelement([1,90,80]));
 module.exports = maxtwoelement

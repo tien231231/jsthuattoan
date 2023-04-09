@@ -1,4 +1,4 @@
-//2
+//2 Chuck (err)
 /**
  *
  * @param {Array} arr
@@ -18,4 +18,5 @@ const chuck = (arr, index) => {
 
 
 };
+console.log(chuck(['a', 'b', 'c', 'd'], 2));
 exports.chuck = chuck;

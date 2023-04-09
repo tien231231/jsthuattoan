@@ -1,4 +1,4 @@
-//5
+//5 (not done)
 /**
  *
  * @param {*} collection
@@ -21,4 +21,8 @@ function groupBy(collection, field) {
 
   return result;
 }
+const collect = [{a: 1, b: 2}, {a: 1, b: 3}, {a: 2, b: 2}];
+console.log(groupBy(collect, 'a'))
+
+
 module.exports = groupBy
