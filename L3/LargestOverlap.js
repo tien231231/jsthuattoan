@@ -27,4 +27,4 @@ function LargestOverlap(strings) {
   
     return overlap;
   }
-  console.log(LargestOverlap(["abcdefg", "cdefghijklm", "ghijklmnopqr"]));
+  console.log(LargestOverlap([ "cdefghijklm", "ghijklmnopqr"]));

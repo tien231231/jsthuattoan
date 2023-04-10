@@ -16,6 +16,6 @@ const SwithOrder = (arr, id, order) => {
   }
   return arr;
 };
-console.log(SwithOrder([{id: 10, order: 0}, {id: 12, order: 1}, {id: 9, order: 2}],2,1))
+console.log(SwithOrder([{id: 10, order: 0}, {id: 12, order: 1}, {id: 9, order: 2}],9,1))
 
 module.exports = SwithOrder

@@ -13,5 +13,6 @@ function sumofanysubsetoflist(arr) {
   
     return result;
   }
-  console.log(sumofanysubsetoflist([1, 2, 3, 7, 8, 20]));
-  module.exports = sumofanysubsetoflist
+  
+console.log(sumofanysubsetoflist([1, 2, 3, 7, 8, 20]));
+module.exports = sumofanysubsetoflist

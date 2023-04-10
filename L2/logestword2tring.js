@@ -12,12 +12,12 @@ const logestword2tring = (s1, s2)  =>{
         while (s1[i + k] && s2[j + k] && s1[i + k] === s2[j + k]) {
           k++;
         }
-        if (k > result.length) {
-          result = s1.slice(i, i + k);
+        if (k > kq.length) {
+          kq = s1.slice(i, i + k);
         }
       }
     }
     return kq;
   }
 module.exports = logestword2tring
-console.log(logestword2tring(["abcdef", "abczyzcdef"]));
+console.log(logestword2tring("abcdef", "abczyzcdef"));
