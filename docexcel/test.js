@@ -1,4 +1,4 @@
-const { log } = require("mathjs");
+
 const xlsx = require("xlsx");
 
 const workbook = xlsx.readFile("BangCong.xlsx");
@@ -36,7 +36,12 @@ for (let x = 4; x < data.length; x++) {
   var nv = {};
   let gc = null;
   let cn = null;
-  let tc = null;s
+  let tc = null;
+  let gc1 = null;
+  let tc1 = null;
+  let wkd = null;
+  
+  for (let i in data[3]) {
     if (data[3][i] == "$") {
       monray.push(data[x][i] !== undefined ? data[x][i] : 0);
     }
